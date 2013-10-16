@@ -74,7 +74,7 @@ func NewPasswordClient(user string, password string) *Client {
 	return client
 }
 
-func NewSecrentClient(user string, secret string) *Client {
+func NewSecretClient(user string, secret string) *Client {
 	client := &Client{}
 	client.user = user
 	builder := &SecretBuild{secret}
