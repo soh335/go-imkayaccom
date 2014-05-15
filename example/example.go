@@ -1,7 +1,7 @@
 package main
 
 import (
-	im "github.com/soh335/im.kayac.com.go"
+	im "github.com/soh335/go-imkayaccom"
 	"log"
 )
 
